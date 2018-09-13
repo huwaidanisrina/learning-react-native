@@ -6,13 +6,15 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-      	<Judul/>
+      <Judul judul="BIODATA"/>
+      <Judul judul="LOGIN"/>
+      <Judul judul="FORM"/>
         <Text>Nama : Huwaida Nisrina Najla</Text>
         <Text>Kelas : XI RPL 4</Text>
         <Text>No Absen : 14</Text>
         <Image 
         style={{height:324, width:368}}
-        source={require('./ss1.png')} />
+        source={require('./ss1.png')}/>
       </View>
     );
   }
